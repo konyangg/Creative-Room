@@ -1,0 +1,61 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+body{
+    background-image: url("1.png");
+    background-size: cover;
+}
+.login_main > .login_logo > a > img{
+    height: 70px;
+}
+.login_main{
+    border-radius: 5px;
+    margin-top: 18%;
+    margin-left: 650px;
+    margin-right: 650px;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+.login_main > .login_user > .id_user > input{
+    color: black;
+    border: none;
+    background-color: rgba(43, 43, 43, 0.3);
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+}
+.login_main > .login_user > .pw_user{
+    padding-top: 2px;
+}
+.login_main > .login_user > .pw_user > input{
+    color: black;
+    border: none;
+    background-color: rgba(43,43,43, 0.3);
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    
+}
+input::placeholder{
+    color: rgb(57, 56, 56);
+}
+.login_main > .login_user > .save_user{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.login_main > .login_user > .login{
+    height: 30px;
+    width: 250px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
